@@ -1,0 +1,78 @@
+.app {
+  text-align: center;
+}
+
+.appHeader {
+  background-color: #282c34;
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 30px;
+  color: white;
+  margin-bottom: 20px;
+}
+
+.appHeader h1 {
+  margin: 5px;
+}
+
+.appHeader button {
+  margin: 10px;
+  padding: 5px;
+}
+
+.searchField {
+  width: 100%;
+  display: flex;
+  margin: auto;
+  justify-content: center;
+}
+
+.searchButton {
+  padding: 10px;
+  font-size: 16px;
+  margin-right: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.inputField {
+  padding: 10px;
+  font-size: 16px;
+  width: 80%;
+  margin-right: 10px;
+  border-radius: 5px;
+}
+
+.searchedGallery {
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 16px;
+}
+
+.photoItem {
+  position: relative;
+  overflow: hidden;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+.photoItem button {
+  margin: 15px;
+  /* border: none; */
+}
+
+.photoItemSaved img {
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 20px;
+}
